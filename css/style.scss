@@ -381,6 +381,31 @@ i {
   text-align: center;
   font-size: 35px;
 }
+
+.product::after {
+  content: "";
+  display: block;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid rgb(0, 0, 0);
+  height: 1px;
+  position: relative;
+  left: 1213px;
+  bottom: 325px;
+}
+.product::before {
+  content: "";
+  display: block;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid black;
+  width: 0px;
+  position: relative;
+  height: 1px;
+  position: relative;
+  top: 495px;
+  right: 25px;
+}
 // end product starter sign
 .container2 {
   margin: 0 auto;

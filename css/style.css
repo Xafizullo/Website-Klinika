@@ -434,6 +434,32 @@ i {
   font-size: 35px;
 }
 
+.product::after {
+  content: "";
+  display: block;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid black;
+  height: 1px;
+  position: relative;
+  left: 1213px;
+  bottom: 325px;
+}
+
+.product::before {
+  content: "";
+  display: block;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid black;
+  width: 0px;
+  position: relative;
+  height: 1px;
+  position: relative;
+  top: 495px;
+  right: 25px;
+}
+
 .container2 {
   margin: 0 auto;
   box-shadow: 1px 1px 20px 1px #d8d7d7;
