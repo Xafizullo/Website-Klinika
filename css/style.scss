@@ -45,15 +45,16 @@ a {
 .nav .flag img {
   width: 41px;
   height: 41px;
-  margin-left: 71px;
+  margin-left: 61px;
   margin-top: 19px;
+  padding: 0;
 }
 .nav .flag a {
   width: 11px;
   height: 6px;
   position: relative;
   bottom: 15px;
-  left: 10px;
+  left: 0px;
   color: #55a630;
 }
 .nav2 ul {
@@ -67,6 +68,10 @@ ul {
 ul li a {
   font-size: 16px;
   color: black;
+}
+ul li a:hover {
+  color: $much;
+  border-bottom: 2px solid #55a630;
 }
 // end nav start main header
 .header-main-bg {
@@ -116,10 +121,12 @@ ul li a {
 .header-card h3 {
   color: $much;
   font-size: 45px;
+  text-align: center;
 }
 .header-card p {
   font-size: 23px;
   color: black;
+  position: relative;
 }
 // end header start main
 .main img {
@@ -134,31 +141,12 @@ ul li a {
   position: relative;
   bottom: 500px;
 }
-.main-card1::after {
-  content: "";
-  display: block;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-radius: 50px;
-  position: absolute;
-  top: 650px;
-  left: 572px;
-  background-color: $much;
-}
-.main-card1::before {
-  content: "";
-  display: block;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-radius: 50px;
-  position: absolute;
-  top: 650px;
-  left: 600px;
-  background-color: #b7ecb1;
+
+.zagruzka img {
+  position: relative;
+  bottom: 500px;
+  left: 525px;
+  margin: 0 auto;
 }
 .main::after {
   content: "";
@@ -223,7 +211,8 @@ ul li a {
   font-size: 25px;
   line-height: 29px;
   text-align: left;
-  margin-bottom: 60px;
+  margin: 0;
+  padding-bottom: 60px;
 }
 .hero a {
   font-size: 25px;
@@ -261,7 +250,8 @@ ul li a {
 }
 .boxx .box-text p {
   font-size: 25px;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
+  margin: 0;
 }
 .boxx .box-text a {
   font-size: 23px;
@@ -319,29 +309,34 @@ i {
 .master::after {
   content: "";
   display: block;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-radius: 50px;
-  position: absolute;
-  left: 700px;
-  margin-top: 490px;
-  background-color: $much;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid rgb(0, 0, 0);
+  height: 1px;
+  position: relative;
+  top: 180px;
+  right: 20px;
 }
 .master::before {
   content: "";
   display: block;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-radius: 50px;
-  position: absolute;
-  left: 740px;
-  margin-top: 490px;
-  background-color: #b7ecb1;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid black;
+  width: 0px;
+  position: relative;
+  height: 1px;
+  position: relative;
+  top: 180px;
+  left: 20px;
 }
+
+.master-zag img {
+  position: relative;
+  left: 530px;
+  bottom: 60px;
+}
+
 // end master class starter article
 .inform h3 {
   text-align: center;
